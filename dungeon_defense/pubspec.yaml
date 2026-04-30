@@ -1,0 +1,47 @@
+name: dungeon_defense
+description: "Dungeon Defense - The Invasion of the Hero. Defend your dungeon!"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Game Engine
+  flame: ^1.18.0
+  flame_audio: ^2.1.1
+
+  # Storage
+  shared_preferences: ^2.2.3
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # State management
+  provider: ^6.1.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/monsters/
+    - assets/images/heroes/
+    - assets/images/tiles/
+    - assets/images/ui/
+    - assets/images/effects/
+    - assets/images/weapons/
+    - assets/images/terrain/
+    - assets/images/props/
+    - assets/audio/sfx/
+    - assets/audio/music/
+
